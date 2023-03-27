@@ -155,7 +155,14 @@ z-index:9;
     z-index:0;
     border-radius: 3vh;
   }
-
+ #p3::before{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    z-index:0;
+    background: #fff;
+  }
   #p4{
     background-color:#fff;
     padding: 20px;
@@ -164,4 +171,12 @@ z-index:9;
     text-decoration: solid;
     z-index:0;
     border-radius: 3vh;
+  }
+#p4::before{
+    content:"";
+    position: absolute;
+    width:0;
+    height:0;
+    z-index:0;
+    background: #fff;
   }
