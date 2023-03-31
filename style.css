@@ -182,6 +182,11 @@ z-index:9;
    -moz-box-shadow:10px 10px 25px yellow;
   -webkit-box-shadow: 10px 10px 25px yellow;
   box-shadow: 10px 10px 25px yellow;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/fraud.png");
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
   }
  #p3::before{
     content:"";
@@ -204,6 +209,12 @@ z-index:9;
   -moz-box-shadow:10px 10px 25px yellow;
   -webkit-box-shadow: 10px 10px 25px yellow;
   box-shadow: 10px 10px 25px yellow;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/chronic.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
   }
 #p4::before{
     content:"";
