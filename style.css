@@ -224,3 +224,22 @@ z-index:9;
     z-index:0;
     background: #fff;
   }
+ h3{
+    color: #F6F7A9;
+    font-size: medium;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    /*color:#54b3d6;*/
+    margin: 0 - .25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out; 
+}
+h3:hover{
+  box-shadow: inset 857px  0 0 #A782EC;
+  color: white;
+}
+
+  
