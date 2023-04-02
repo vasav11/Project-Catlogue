@@ -232,6 +232,7 @@ z-index:9;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     box-shadow: inset 0 0 0 0 #54b3d6;
+      border-radius: 2vh;
     /*color:#54b3d6;*/
     margin: 0 - .25rem;
     padding: 0 .25rem;
