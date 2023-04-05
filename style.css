@@ -10,6 +10,102 @@ body{
     min-height:100vh;
     background:linear-gradient(#2b1055,#7597de);
 }
+#menu{
+  z-index: 99999;
+  padding: 3px 350px 500px 1150px;
+}
+#menu-bar{
+  width: 45px;
+  height: 5px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+  z-index: 999;
+  /*padding-bottom: 30px 100px;*/
+}
+.bar{
+  height:5px;
+  width:100%;
+  background-color: #DC052D;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  z-index: 999;
+  float: right;
+  
+}
+#bar1{
+  transform: translateY(-4px);
+}
+#bar3{
+  transform: translateY(4px);
+}
+.nav {
+  transition: 0.3s ease;
+  display:none;
+  z-index:999;
+}
+.nav ul{
+  padding: 0 22px;
+  z-index:999;
+}
+.nav li{
+  list-style: none;
+  padding: 12px 0;
+  z-index:999;
+}
+.nav li a {
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+  z-index:999;
+}
+.nav li a:hover{
+  font-weight: bold;
+  z-index:999;
+}
+.menu-bg, #menu{
+  top:0;
+  left: 0;
+  position: absolute;
+  z-index: 999;
+}
+.menu-bg {
+  z-index:1;
+  width:0;
+  height:0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle,#dc052d,#dc052d);
+  border-radius: 50%;
+  transition: 0.3s ease;
+  z-index: 999;
+}
+.change{
+  display:block;
+}
+.change .bar{
+  background-color: white;
+}
+.change #bar1{
+  transform: translateY(4px)
+  rotateZ(-45deg);
+}
+.change #bar2{
+  opacity: 0;
+}
+.change #bar3{
+  transform:translateY(-6px) rotateZ(45deg);
+}
+.change-bg{
+  width:520px;
+  height:460px;
+  transform: translate(-60%,-30%);
+}
+#logo{
+ font-size: 50px;
+ color: white;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 10px 100px 10px 500px;
+}
 header{
     position:absolute;
     top:0;
