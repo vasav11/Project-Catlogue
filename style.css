@@ -171,6 +171,16 @@ section img#mountains_front
 {
     z-index:10;
 }
+.logo{
+  font-size: 30px;
+ color: white;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 10px 100px 10px 50px;
+ /*position: relative;*/
+ float: left;
+ justify-content: center;
+ 
+}
 #text{
 position:absolute;
 color:#fff;
