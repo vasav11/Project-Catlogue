@@ -334,11 +334,11 @@ z-index:9;
     color: #F6F7A9;
     font-size: medium;
     font-size: 27px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     box-shadow: inset 0 0 0 0 #54b3d6;
-      border-radius: 2vh;
+      border-radius: 3vh;
     /*color:#54b3d6;*/
     margin: 0 - .25rem;
     padding: 0 .25rem;
