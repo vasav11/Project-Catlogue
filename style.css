@@ -342,7 +342,7 @@ z-index:9;
     /*color:#54b3d6;*/
     margin: 0 - .25rem;
     padding: 0 .25rem;
-    transition: color .5s ease-in-out, box-shadow .5s ease-in-out; 
+    transition: color .5s ease-in-out, box-shadow .6s ease-in-out; 
 }
 h3:hover{
      -webkit-transform: scale(1.15);
