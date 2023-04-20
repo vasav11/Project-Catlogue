@@ -345,9 +345,9 @@ z-index:9;
     transition: color .5s ease-in-out, box-shadow .6s ease-in-out; 
 }
 h3:hover{
-     -webkit-transform: scale(1.50);
-  -ms-transform:scale(1.50);
-  transform:scale(1.50);
+     -webkit-transform: scale(1.25);
+  -ms-transform:scale(1.20);
+  transform:scale(1.20);
   box-shadow: inset 857px  0 0 #A782EC;
   color: white;
 }
