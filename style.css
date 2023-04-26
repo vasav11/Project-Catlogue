@@ -11,7 +11,7 @@ body{
     background:linear-gradient(#2b1055,#7597de);
 }
 #menu{
-  z-index: 99999;
+  z-index: 9;
   padding: 3px 350px 500px 1150px;
 }
 #menu-bar{
