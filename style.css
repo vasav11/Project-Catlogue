@@ -340,8 +340,8 @@ z-index:9;
     box-shadow: inset 0 0 0 0 #54b3d6;
       border-radius: 3vh;
     /*color:#54b3d6;*/
-    margin: 0 - .25rem;
-    padding: 0 .25rem;
+    margin: 0 - .55rem;
+    padding: 0 .55rem;
     transition: color .5s ease-in-out, box-shadow .6s ease-in-out; 
 }
 h3:hover{
