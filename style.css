@@ -330,6 +330,34 @@ z-index:9;
     z-index:0;
     background: #fff;
   }
+#p5{
+    background-color:#fff;
+    padding: 20px;
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    z-index:0;
+    border-radius: 3vh;
+    font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -moz-box-shadow:10px 10px 25px yellow;
+  -webkit-box-shadow: 10px 10px 25px yellow;
+  box-shadow: 10px 10px 25px yellow;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/portfolio.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  }
+  #p5::before{
+    content:"";
+    position:absolute;
+    width:0;
+    height:0;
+    z-index:0;
+    background: #fff;
+  }
  h3{
     color: #F6F7A9;
     font-size: medium;
