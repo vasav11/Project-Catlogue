@@ -350,13 +350,7 @@ z-index:9;
   background-size: cover;
   background-position: center;
   }
-  #p5::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  z-index: 0;
-  background: #fff;
+ background: #fff;
 }
  h3{
     color: #F6F7A9;
